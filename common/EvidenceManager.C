@@ -112,7 +112,7 @@ EvidenceManager::loadEvidenceFromFile_Continuous(const char* inFName)
 		{
 			Evidence* evid = new Evidence;
 			evid->assocVariable(vId);
-			double varVal=log(atof(tok));
+			double varVal=atof(tok);//log(atof(tok));
 			if(isinf(varVal) || isnan(varVal))
 			{
 				//cout <<"Found nan! " << tok << endl;
