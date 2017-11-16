@@ -24,7 +24,7 @@ Command-line usage
 Merlin is a C++ tool, which can be downloaded from the repository and compiled on a linux machine.
 
 **Command**
-> ./merlin -d example/net1_expression.txt -c example/clusterassign.txt -o ./ -l example/net1_transcription_factors.tsv -v 1 -h 0.6 -k 300 -p 5 -r 4
+> ./merlin -d example/net1_expression.txt -c example/clusterassign.txt -o ./ -l example/net1_transcription_factors.tsv -v 1 -h 0.6 -k 300 -p -5 -r 4
 
 Options are described above.
 
